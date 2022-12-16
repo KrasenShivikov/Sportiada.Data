@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20211015113053_TwentyFour.cs" />
+    <Compile Remove="Migrations\20211015113053_TwentyFour.Designer.cs" />
+    <Compile Remove="Migrations\20211015115408_TwentyFour.cs" />
+    <Compile Remove="Migrations\20211015115408_TwentyFour.Designer.cs" />
+    <Compile Remove="Migrations\20211015120436_TwentyFive.cs" />
+    <Compile Remove="Migrations\20211015120436_TwentyFive.Designer.cs" />
+    <Compile Remove="Migrations\20211015121502_TwentyFive.cs" />
+    <Compile Remove="Migrations\20211015121502_TwentyFive.Designer.cs" />
+    <Compile Remove="Migrations\20211015123103_TwentySix.cs" />
+    <Compile Remove="Migrations\20211015123103_TwentySix.Designer.cs" />
+    <Compile Remove="Migrations\20211015123745_TwentyFour.cs" />
+    <Compile Remove="Migrations\20211015123745_TwentyFour.Designer.cs" />
+    <Compile Remove="Migrations\20211112152904_TwentySeven.Designer.cs" />
+    <Compile Remove="Migrations\20211112153947_TwentyFive.cs" />
+    <Compile Remove="Migrations\20211112153947_TwentyFive.Designer.cs" />
+    <Compile Remove="Migrations\20211112154746_Initial.cs" />
+    <Compile Remove="Migrations\20211112154746_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20220909140830_Sixteen.cs" />
+    <Compile Remove="Migrations\20220909140830_Sixteen.Designer.cs" />
+    <Compile Remove="Migrations\20221005191915_Eighteen.cs" />
+    <Compile Remove="Migrations\20221005191915_Eighteen.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
+  </ItemGroup>
+
+</Project>
