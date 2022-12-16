@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Sportiada.Data</id>
+    <version>1.0.0</version>
+    <authors>Sportiada.Data</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="Microsoft.AspNetCore.Identity.EntityFrameworkCore" version="2.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="2.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Sportiada\Sportiada.Data\bin\Release\netcoreapp2.0\Sportiada.Data.dll" target="lib\netcoreapp2.0\Sportiada.Data.dll" />
+  </files>
+</package>
